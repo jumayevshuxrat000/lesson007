@@ -1,0 +1,14 @@
+.contianer{
+    max-width: 1180px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+
+@import "reset";
+@import "navigation"; 
+@import "hero_section";
+@import "math_section"; 
+@import "datatype";
+@import "about";
+@import "footer"

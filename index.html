@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/hero_section.min.css">
+</head>
+<body style="background-color: #ffeb3b;">   
+    <div class="contianer">
+        <header class="navbar">
+            <div class="navbar__logo">
+                <img src="./assets/js.png" alt="Logo" />
+                <span>logoipsum</span>
+            </div>
+            <nav class="navbar__links">
+                <a href="#">JavaScript Haqida</a>
+                <a href="#">Turlari</a>
+                <a href="#">Organish</a>
+                <a href="#">Ro`yxatdan O`tish</a>
+                <a href="#" class="navbar__button">Hisob yaratish</a>
+            </nav>
+        </header>
+    </div>
+    <section class="hero__section">
+        <div class="contianer">
+            <div class="hero">
+                <div class="hero__content">
+                    <h2>Brendan Eich</h2>
+                    <p>Bu inson JavaScript tiliga asos solgan</p>
+                    <strong>
+                        1961-yil 4-iyull, Pitsburgh, Pensilvaniya, AQSH — amerikalik dasturchi, JavaScript dasturlash tilini yaratuvchisi. 1995-yildan beri Netscape'da ishlagan; Mozilla kompaniyasini tashkil etishda ishtirok etgan, 2014-yilgacha Mozilla korporatsiyasida bosh muhandis bo'lgan.
+                    </strong>
+                </div>
+                <div class="hero__image">
+                    <img src="./assets/counder.avif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contianer">
+        <section class="math-object">
+            <h2 class="math-object__title">Math Object</h2>
+            <p class="math-object__description">
+              JavaScript’da Math object matematik funksiyalar va konstantalar bilan ishlash uchun mo'ljallangan.
+              U veb ilovalarida ko‘plab matematik amallarni bajarishga yordam beradi. Bu ob'ekt statik bo'lib,
+              Math obyektini bevosita ishlatishingiz mumkin.
+            </p>
+            <div class="math-object__grid">
+              <div class="math-card">
+                <h3 class="math-card__title">Math.PI</h3>
+                <p class="math-card__description">
+                  Pi qiymatini ifodalaydi, taxminan 3.14159 ga teng.<br>
+                  <code>console.log(Math.PI); // 3.141592653589793</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.round()</h3>
+                <p class="math-card__description">
+                  PSonni eng yaqin butunga aylantiradi.<br>
+                  <code>console.log(Math.round(4.7)); // 5</code><br>
+                  <code>console.log(Math.round(4.4)); // 4</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.ceil()</h3>
+                <p class="math-card__description">
+                  Sonni yuqoriga qarab butunga aylantiradi.<br>
+                  <code>console.log(Math.ceil(4.1)); // 5</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.floor()</h3>
+                <p class="math-card__description">
+                  Sonni pastga qarab butunga aylantiradi.<br>
+                  <code>console.log(Math.floor(4.9)); // 4</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.random()</h3>
+                <p class="math-card__description">
+                  0 va 1 oralig'ida tasodifiy son yaratadi.<br>
+                  <code>console.log(Math.random());</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.max()</h3>
+                <p class="math-card__description">
+                  Bir necha argumentlar orasidan eng katta qiymatni qaytaradi.<br>
+                  <code>console.log(Math.max(1, 3, 2)); // 3</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.min()</h3>
+                <p class="math-card__description">
+                  Bir necha argumentlar orasidan eng kichik qiymatni qaytaradi.<br>
+                  <code>console.log(Math.min(1, 3, 2)); // 1</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.pow()</h3>
+                <p class="math-card__description">
+                  Bir sonni ikkinchisiga daraja qilish uchun ishlatiladi.<br>
+                  <code>console.log(Math.pow(2, 3)); // 8</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.sqrt()</h3>
+                <p class="math-card__description">
+                  Sonning kvadrat ildizini qaytaradi.<br>
+                  <code>console.log(Math.sqrt(16)); // 4</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.abs()</h3>
+                <p class="math-card__description">
+                  Sonning modulini (musbat qiymat) qaytaradi.<br>
+                  <code>console.log(Math.abs(-5)); // 5</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.log()</h3>
+                <p class="math-card__description">
+                  Natural logarifmni (sonning tabiiy logarifmi) qaytaradi.<br>
+                  <code>console.log(Math.log(Math.E)); // 1</code>
+                </p>
+              </div>
+              <div class="math-card">
+                <h3 class="math-card__title">Math.exp()</h3>
+                <p class="math-card__description">
+                  e ni ko'tarilgan darajaga ko'taradi.<br>
+                  <code>console.log(Math.exp(1)); // 2.718281828459045 (e)</code>
+                </p>
+              </div>
+            </div>
+          </section>
+           <div class="contianer">
+            <section class="data-types">
+                <h2 class="data-types__title">Data Types</h2>
+                <div class="data-types__grid">
+                  <div class="data-types__header">Primitive</div>
+                  <div class="data-types__header">Non-Primitive</div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">String</h3>
+                    <p class="data-card__description">
+                      String: Matnli ma'lumotlarni ifodalaydi. Ikkita qo'shtirnoq yoki bitta qo'shtirnoq ichida yoziladi.<br>
+                      <code>let greeting = "Hello, World!";</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Object</h3>
+                    <p class="data-card__description">
+                      Object: Murakkab ma'lumotlarni ifodalaydi va o'z ichiga ma'lumotlar to'plamini oladi.<br>
+                      <code>let person = { name: "John", age: 30, isStudent: true };</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Number</h3>
+                    <p class="data-card__description">
+                      Number: Sonli ma'lumotlarni ifodalaydi. Butun sonlar va o'nlik sonlarni o'z ichiga oladi.<br>
+                      <code>let age = 25;<br>let price = 19.99;</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Array</h3>
+                    <p class="data-card__description">
+                      Array: Qiymatlar ro'yxatini ifodalaydi. JavaScript'da bu shuningdek ob'ektning bir turi.<br>
+                      <code>let colors = ["red", "green", "blue"];</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Boolean</h3>
+                    <p class="data-card__description">
+                      Boolean: True yoki False qiymatlarini ifodalaydi. Mantiqiy operatsiyalarda qo'llaniladi.<br>
+                      <code>let isValid = true;<br>let hasPermission = false;</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Function</h3>
+                    <p class="data-card__description">
+                      Function: Funksiyalar kodlarni takrorlash yoki qayta ishlash uchun ishlatiladi.<br>
+                      <code>function greet() { console.log("Hello world"); } greet();</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Undefined</h3>
+                    <p class="data-card__description">
+                      Undefined: Qiymat aniqlanmagan yoki o'zgartuvchi e'lon qilinganda lekin qiymat belgilanmaganda bo'ladi.<br>
+                      <code>let x;<br>console.log(x); // undefined</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Date</h3>
+                    <p class="data-card__description">
+                      Date: Sana va vaqt bilan ishlash uchun ishlatiladi.<br>
+                      <code>let today = new Date();</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">Symbol</h3>
+                    <p class="data-card__description">
+                      Symbol: Unikal va o'zgarmas qiymatni ifodalaydi. Ko'pincha identifier sifatida ishlatiladi.<br>
+                      <code>let sym = Symbol('description');</code>
+                    </p>
+                  </div>
+                  <div class="data-card">
+                    <h3 class="data-card__title">BigInt</h3>
+                    <p class="data-card__description">
+                      BigInt: Juda katta butun sonlarni ifodalash uchun ishlatiladi.<br>
+                      <code>let bigNumber = BigInt(9007199254740991);</code>
+                    </p>
+                  </div>
+                </div>
+              </section>              
+           </div>       
+           <div class="contianer">
+            <section class="section-container">
+                <div class="section-card">
+                  <h2 class="section-title">Tarixi va rivojlanishi</h2>
+                  <p>1995: Brendan Eich JavaScriptni ishlab chiqadi</p>
+                  <p>1996: JavaScript standartlashtiriladi va ECMAScript nomi bilan tanilgan,</p>
+                  <p>2005-yillar: AJAX texnologiyalari bilan JavaScripting ommalashuvi boshlanadi.</p>
+                  <p>2015: ECMAScript 6 (ES6) chiqariladi, bu JavaScripting katta yangilanishdir va yangi sintaksis va funksiyalarni kiritadi.</p>
+                </div>
+              
+                <div class="section-card section-card--gray">
+                  <h2 class="section-title">Foydalanish joylari</h2>
+                  <p>Veb-sahifalar: Interaktiv elementlar yaratish uchun (tugmalar, formalar, animatsiyalar).</p>
+                  <p>Server: Node.js orqali server kodlari yozish.</p>
+                  <p>Mobil Ilovalar: React Native yordamida mobil ilovalar yaratish.</p>
+                  <p>Analitika: Foydalanuvchi harakatlarini kuzatish va tahlil qilish.</p>
+                </div>
+              </section>              
+           </div>
+            <footer class="footer">
+                    <div class="footer-container">
+                        <div class="footer-section">
+                          <h3 class="footer-title">Kompaniya</h3>
+                          <ul>
+                            <li><a href="#">Biz haqimizda</a></li>
+                            <li><a href="#">Jamoa</a></li>
+                            <li><a href="#">Karyera</a></li>
+                          </ul>
+                        </div>
+                    
+                        <div class="footer-section">
+                          <h3 class="footer-title">Yordam</h3>
+                          <ul>
+                            <li><a href="#">Aloqa</a></li>
+                            <li><a href="#">Qo'llab-quvvatlash</a></li>
+                            <li><a href="#">Yordam markazi</a></li>
+                          </ul>
+                        </div>
+                    
+                        <div class="footer-section">
+                          <h3 class="footer-title">Ijtimoiy tarmoqlar</h3>
+                          <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="footer-bottom">
+                        <p>&copy; 2024 Kompaniya Nomi. Barcha huquqlar himoyalangan.</p>
+                      </div>
+
+              </footer>              
+    </div>
+</body>
+</html>

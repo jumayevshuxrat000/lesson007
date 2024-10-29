@@ -1,0 +1,49 @@
+.math-object {
+    background-color: #ffeb3b;
+    text-align: center;
+    padding: 2rem;
+    color: #1e1e1e;
+  
+    &__title {
+      font-size: 2.5rem;
+      color: #d32f2f;
+      margin-bottom: 0.5rem;
+    }
+  
+    &__description {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+  
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+  }
+  
+  .math-card {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #ffeb3b;
+    text-align: left;
+  
+    &__title {
+      font-size: 1.2rem;
+      color: #d32f2f;
+      margin-bottom: 0.5rem;
+    }
+  
+    &__description {
+      font-size: 0.9rem;
+      color: #ffeb3b;
+  
+      code {
+        display: block;
+        font-size: 0.85rem;
+        color: #ffeb3b;
+      }
+    }
+  }
+  
